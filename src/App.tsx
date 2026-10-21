@@ -10,6 +10,7 @@ import { Clients } from './routes/Clients'
 import { ClientForm } from './routes/ClientForm'
 import { InvoiceForm } from './routes/InvoiceForm'
 import { InvoiceDetail } from './routes/InvoiceDetail'
+import { Hello } from './routes/Hello'
 import './index.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/hello" element={<Hello />} />
             <Route
               path="/"
               element={
